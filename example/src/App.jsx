@@ -12,6 +12,8 @@ function App() {
   return (
     <div className="App">
       <button onClick={ () => dispatch(increment(1)) }>Öka med 1</button>
+      <button onClick={ () => dispatch(decrement(1)) }>Minska med 1</button>
+
       <ViewCounter />
     </div>
   )
